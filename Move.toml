@@ -1,0 +1,9 @@
+[package]
+name = "Messages"
+version = "0.0.1"
+
+[addresses]
+Messages = "0xBEEF"
+
+[dependencies]
+MoveStdlib = { git = "https://github.com/move-language/move", subdir = "language/move-stdlib", rev = "main" }
